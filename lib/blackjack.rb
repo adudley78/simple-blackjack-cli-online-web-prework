@@ -54,5 +54,8 @@ end
 #####################################################
 
 def runner
-
+  welcome
+  deal_card
+  initial_round
+  hit?
 end
