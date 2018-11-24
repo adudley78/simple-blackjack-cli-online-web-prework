@@ -60,7 +60,7 @@ def runner(card_total)
   until card_total > 21
   hit?
   display_card_total
-  new_card_total += card_total
+  card_total += hit? 
   end
   end_game
 end
